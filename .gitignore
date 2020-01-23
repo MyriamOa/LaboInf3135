@@ -1,2 +1,12 @@
-pwd
-echo -e "*.out" >> .gitignore
+*.o
+*.out
+
+*.swo
+*.swp
+
+*.old
+*.tmp
+*.bak
+
+bin/
+build/
